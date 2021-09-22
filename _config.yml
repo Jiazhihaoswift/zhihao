@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: 秋明车山神
+subtitle: 
+description: 日隐月见 潜龙在渊
 keywords:
-author: John Doe
-language: en
-timezone: ''
+author: 山神
+language: zh-CN
+timezone: Asia/Shanghai #中国的时区，不要乱改城市
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url:  https://jiazhihaoswift.github.io/zhihao/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -97,9 +97,11 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repository: git@github.com:Jiazhihaoswift/zhihao.git
+  branch: web
